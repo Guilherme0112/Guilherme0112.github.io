@@ -1,4 +1,5 @@
 import Button from "@/components/Button";
+import ButtonOff from "@/components/ButtonOff";
 import FadeInSection from "@/components/FadeInSection";
 import Header from "@/components/Header";
 import style from "@/styles/Home.module.css";
@@ -25,13 +26,24 @@ export default function Home() {
           <h1 className={style.titulo}>Projetos</h1>
           <div>
             <div className={style.caixa_projeto}>
-              <h2>AdMon</h2>
-              <p>Um site que te ajuda a organizar sua vida financeira, você se cadastra e adiciona as suas contas e ganhos, ele te trás o resumo mensal</p>
+              <h1>AdMon</h1>
+              <p>Um site que te ajuda a organizar sua vida financeira, você se cadastra e adiciona as suas contas e ganhos, 
+                ele te trás o resumo mensal em um dashboard dinâmico. junto com o Google Charts ele adiciona diversos gráficos que ajudam
+                no entendimento de suas finanças, e assim lhe ajudando a ter controle  dos gastos.</p>
               <Button link={"https://github.com/Guilherme0112/AdMon"}>Código</Button>
+              <ButtonOff>Deploy</ButtonOff>
             </div>
           </div>
         </section>
 
+
+        <section style={{display: "flex" ,justifyContent: "center", flexWrap: "wrap" }}  id="experiencia">
+          <h1 className={style.titulo}>Experiências</h1>
+        </section>
+
+        <section>
+          <h1 className={style.titulo}>Estudos</h1>
+        </section>
       </FadeInSection>
     </div>
   );

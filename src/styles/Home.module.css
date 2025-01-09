@@ -33,21 +33,26 @@
     background-color: #00c04e;
     border-radius: 30px;
     padding: 10px;
-    width: 300px;
+    max-width: 500px;
+    height: auto;
+}
+.caixa_projeto h1{
+    font-size: 20px;
+    margin: 10px 0;
 }
 
 /* Elementos */
-
 
 .titulo{
     font-size: 40px;
     width: 100%;
     padding-left: 30px;
     text-align: center;
+    margin: 20px 0;
 }
 
 .button{
-    background-color: #006cd1;
+    background-color: #00b81f;
     color: white;
     border: none;
     border-radius: 10px;
@@ -56,4 +61,20 @@
     cursor: pointer;
     margin: 10px;
     text-decoration: none;
+    transition: .2s;
+}
+.button:hover{
+    box-shadow: 0 0 5px black;
+}
+.buttonOff{
+    background-color: #acacac;
+    height: 42px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    cursor: not-allowed;
 }
