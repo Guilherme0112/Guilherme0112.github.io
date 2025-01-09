@@ -1,4 +1,5 @@
 :root{
 
-    --background: #0084ff;
+    --background: linear-gradient(#006cd1, #00c04e);
+    --color: white;
 }

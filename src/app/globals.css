@@ -1,21 +1,22 @@
+@import url("../styles/colors.css");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
   background: var(--background);
+  height: 100vh;
+  color: var(--color);
   font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding: 0 20px;
+}
+header a{
+  margin: 0 10px;
 }
