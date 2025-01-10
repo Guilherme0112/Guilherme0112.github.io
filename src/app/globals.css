@@ -1,4 +1,6 @@
 @import url("../styles/colors.css");
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Permanent+Marker&family=Rubik:ital,wght@0,300..900;1,300..900&family=Spicy+Rice&display=swap');
+
 
 @tailwind base;
 @tailwind components;
@@ -9,7 +11,7 @@ body {
   background: var(--background);
   height: auto;
   color: var(--color);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Rubik;
 }
 header{
   position: fixed;
