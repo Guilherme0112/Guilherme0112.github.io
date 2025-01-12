@@ -1,3 +1,5 @@
+import BoxEstudos from "@/components/BoxEstudos";
+import BoxExperiencia from "@/components/BoxExperiencia";
 import BoxProjetos from "@/components/BoxProjetos";
 import FadeInSection from "@/components/FadeInSection";
 import Header from "@/components/Header";
@@ -13,7 +15,7 @@ export default function Home() {
             <img src="/images/foto_perfil.jpg" alt="Foto de perfil" className={style.foto} />
           </div>
           <div className={style.caixa}>
-            <p>Olá, eu sou Guilherme, sou apaixonado em tecnologia e em desenvolvimento Back-End, tenho alguns projetos onde  já utilizei o PHP e seu framework Laravel, também o NodeJS com o ExpressJS
+            <p>Olá, eu sou Guilherme, sou apaixonado em tecnologia e em desenvolvimento Back-End, adoro criar projetos para praticar minhas habilidades, tenho alguns projetos onde  já utilizei o PHP e seu framework Laravel, também o NodeJS com o ExpressJS
               e atualmente tenho meu foco em Java com Spring, também tenho conhecimento em banco de dados MySQL. Já no Front-End além do HTML, CSS e JavaScript, também tenho conhecimento em NextJS e mais
               algumas tecnologias como JQuery, AJAX e Bootstrap.
             </p>
@@ -48,7 +50,7 @@ export default function Home() {
             <BoxProjetos
               titulo="VidTube"
               descricao="O VidTube é um site de vídeos onde o usuário pode fazer upload de seus vídeos, e também pode assistir vídeos de outros usuários. O site tem um sistema de login e cadastro, e também um sistema de like e dislike nos vídeos juntamente com um sistema de perfis e comentários."
-              link=""
+              link="https://github.com/Guilherme0112/VidTube"
             >
             </BoxProjetos>
           </div>
@@ -56,7 +58,7 @@ export default function Home() {
             <BoxProjetos
               titulo="DashFreela"
               descricao="O DeshFreela é um simples site onde o objetivo é lhe ajudar a gerenciar serviços de freelancer, ele lhe diz quais são os serviços que você tem que fazer, quais estão em andamento, quais já foram feitos e quais estão atrasados. Ele também te diz com 2 dias de antecedência quais estão perto de vencer."
-              link="">
+              link="https://github.com/Guilherme0112/DashFreela">
 
               </BoxProjetos>
           </div>
@@ -65,10 +67,38 @@ export default function Home() {
 
         <section style={{display: "flex" ,justifyContent: "center", flexWrap: "wrap" }}  id="experiencia">
           <h1 className={style.titulo}>Experiências</h1>
+          <div>
+            <BoxExperiencia
+              titulo="-"
+              descricao="Não tenho experiência profissional, mas desenvolvi projetos que pessoais que me ajudaram a aprender mais sobre programação e desenvolvimento web."
+              ></BoxExperiencia>
+          </div>
         </section>
 
-        <section>
+        <section style={{display: "flex" ,justifyContent: "center", flexWrap: "wrap" }} id="estudos">
           <h1 className={style.titulo}>Estudos</h1>
+          <div>
+            <BoxEstudos
+              plataforma="UNIPÊ"
+              curso="Sistemas para Internet"
+              status="02/2024 - 12/2025"  
+            ></BoxEstudos>
+            <BoxEstudos
+              plataforma="Curso em Vídeo"
+              curso="PHP"
+              status="Concluído"  
+            ></BoxEstudos>
+            <BoxEstudos
+              plataforma="DevMedia"
+              curso="API - Application Programming Interface"
+              status="Concluído"  
+            ></BoxEstudos>
+            <BoxEstudos
+              plataforma="DevMedia"
+              curso="POO com PHP"
+              status="Concluído"  
+            ></BoxEstudos>
+          </div>
         </section>
       </FadeInSection>
     </div>
