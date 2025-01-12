@@ -19,18 +19,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt_BR">
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=.5" />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              document.querySelectorAll('meta[name="viewport"]').forEach((meta, index) => {
-                if (index > 0) meta.remove();
-              });
-            `,
-          }}
-        />
-      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
