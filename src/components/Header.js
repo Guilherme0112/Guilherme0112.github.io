@@ -5,6 +5,7 @@ export default function Header() {
             <a href="#projetos">Projetos</a>
             <a href="#experiencia">Experiências</a>
             <a href="#estudos">Estudos</a>
+            <a href="">Links</a>
         </header>
     );
 }

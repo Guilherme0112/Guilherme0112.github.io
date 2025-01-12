@@ -5,7 +5,7 @@ import FadeInSection from "@/components/FadeInSection";
 import Header from "@/components/Header";
 import style from "@/styles/Home.module.css";
 
-import Head from "next/head"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -18,14 +18,24 @@ export default function Home() {
           <Header></Header>
           <section className={style.container} id="sobre">
             <div className={style.caixa_foto}>
-              <img src="null" alt="Foto de perfil" className={style.foto} />
+              <div style={{ border: "2px solid white", borderRadius: "30px", padding: "15px" }}>
+                <Image
+                  src="perfil.jpg"
+                  alt="Foto de Guilherme"
+                  width={300}
+                  height={300}
+                  className={style.foto}
+                ></Image>
+              </div>
             </div>
             <div className={style.caixa}>
-              <h1 className={style.titulo}>Desenvolvedor Back-End</h1>
-              <p>Olá, eu sou Guilherme, sou apaixonado em tecnologia e em desenvolvimento Back-End, adoro criar projetos para praticar minhas habilidades, tenho alguns projetos onde  já utilizei o PHP e seu framework Laravel, também o NodeJS com o ExpressJS
-                e atualmente tenho meu foco em Java com Spring, também tenho conhecimento em banco de dados MySQL. Já no Front-End além do HTML, CSS e JavaScript, também tenho conhecimento em NextJS e mais
-                algumas tecnologias como JQuery, AJAX e Bootstrap.
-              </p>
+              <div style={{ border: "2px solid white", borderRadius: "30px", padding: "20px" }}>
+                <h1 className={style.titulo}>Desenvolvedor Back-End</h1>
+                <p>Olá, eu sou Guilherme, sou apaixonado em tecnologia e em desenvolvimento Back-End, adoro criar projetos para praticar minhas habilidades, tenho alguns projetos onde  já utilizei o PHP e seu framework Laravel, também o NodeJS com o ExpressJS
+                  e atualmente tenho meu foco em Java com Spring, também tenho conhecimento em banco de dados MySQL. Já no Front-End além do HTML, CSS e JavaScript, também tenho conhecimento em NextJS e mais
+                  algumas tecnologias como JQuery, AJAX e Bootstrap.
+                </p>
+              </div>
             </div>
           </section>
 
