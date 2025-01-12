@@ -21,7 +21,7 @@ export default function Header() {
                 <a href="mailto:guimendesmen124@gmail.com">Gmail</a>
               </li>
               <li>
-                <a href="https://www.instagram.com/gui.espanhol" target='_blank'>Instagram</a>
+                <a href="https://www.instagram.com/gui.espanhol_" target='_blank'>Instagram</a>
               </li>
             </ul>
           </a>
