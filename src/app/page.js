@@ -12,7 +12,7 @@ export default function Home() {
         <Header></Header>
         <section className={style.container} id="sobre">
           <div className={style.caixa_foto}>
-            <img src="/images/foto_perfil.jpg" alt="Foto de perfil" className={style.foto} />
+            <img src="null" alt="Foto de perfil" className={style.foto} />
           </div>
           <div className={style.caixa}>
             <h1 className={style.titulo}>Desenvolvedor Back-End</h1>
