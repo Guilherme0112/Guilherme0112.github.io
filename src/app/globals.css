@@ -14,8 +14,6 @@ body {
   font-family: Rubik;
 }
 header{
-  position: fixed;
-  top: 0;
   z-index: 1000;
   display: flex;
   height: 50px;

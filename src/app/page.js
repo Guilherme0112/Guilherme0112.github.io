@@ -7,7 +7,7 @@ import style from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{width: "100%"}}>
       <FadeInSection>
         <Header></Header>
         <section className={style.container} id="sobre">
@@ -15,6 +15,7 @@ export default function Home() {
             <img src="/images/foto_perfil.jpg" alt="Foto de perfil" className={style.foto} />
           </div>
           <div className={style.caixa}>
+            <h1 className={style.titulo}>Desenvolvedor Back-End</h1>
             <p>Olá, eu sou Guilherme, sou apaixonado em tecnologia e em desenvolvimento Back-End, adoro criar projetos para praticar minhas habilidades, tenho alguns projetos onde  já utilizei o PHP e seu framework Laravel, também o NodeJS com o ExpressJS
               e atualmente tenho meu foco em Java com Spring, também tenho conhecimento em banco de dados MySQL. Já no Front-End além do HTML, CSS e JavaScript, também tenho conhecimento em NextJS e mais
               algumas tecnologias como JQuery, AJAX e Bootstrap.
@@ -83,16 +84,22 @@ export default function Home() {
               curso="Sistemas para Internet"
               status="02/2024 - 12/2025"  
             ></BoxEstudos>
+          </div>
+          <div>
             <BoxEstudos
               plataforma="Curso em Vídeo"
               curso="PHP"
               status="Concluído"  
             ></BoxEstudos>
+          </div>
+          <div>
             <BoxEstudos
               plataforma="DevMedia"
               curso="API - Application Programming Interface"
               status="Concluído"  
             ></BoxEstudos>
+          </div>
+          <div>
             <BoxEstudos
               plataforma="DevMedia"
               curso="POO com PHP"
