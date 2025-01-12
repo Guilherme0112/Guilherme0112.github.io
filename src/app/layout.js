@@ -1,5 +1,4 @@
 import { Geist, Geist_Mono } from "next/font/google";
-import Head from "next/document";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -20,7 +19,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt_BR">
-      <Head>
+      <head>
         <meta name="viewport" content="width=device-width, initial-scale=.5" />
         <script
           dangerouslySetInnerHTML={{
@@ -31,7 +30,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-      </Head>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
