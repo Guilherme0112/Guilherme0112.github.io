@@ -18,7 +18,7 @@ export default function Home() {
           <Header></Header>
           <section className={style.container} id="sobre">
             <div className={style.caixa_foto}>
-              <div style={{ border: "2px solid white", borderRadius: "30px", padding: "15px" }}>
+              <div style={{ border: "2px solid white", borderRadius: "50%", padding: "15px" }}>
                 <Image
                   src="perfil.jpg"
                   alt="Foto de Guilherme"

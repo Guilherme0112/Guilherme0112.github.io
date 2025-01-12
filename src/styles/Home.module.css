@@ -13,13 +13,13 @@
 .caixa_foto {
     background-color: #1bb35d;
     padding: 15px;
-    border-radius: 30px;
+    border-radius: 50%;
 }
 
 .foto {
-    width: 250px;
-    height: 350px;
-    border-radius: 30px;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
     background-color: aliceblue;
     object-fit: cover;
     object-position: center;
