@@ -46,21 +46,25 @@ export default function Home() {
               <BoxProjetos
                 titulo="Admon"
                 descricao="O AdMon é um site de administração financeira onde você pode cadastrar sua receita e seus gastos, e ele te mostra um resumo de como está sua situação financeira. Tem diversas funcionalidades como: cadastro de usuários, cadastro de receitas e gastos, gráficos de desempenho financeiro, entre outros."
-                link="https://github.com/Guilherme0112/AdMon">
+                link="https://github.com/Guilherme0112/AdMon"
+                tecnologias="HTML, CSS, JavaScript, AJAX, Java, Spring e MySQL"
+                >
               </BoxProjetos>
             </div>
             <div>
               <BoxProjetos
                 titulo="FutOne"
                 descricao="O FutOne é um site de notícias onde abrange mais o mundo dos jogos, usando o AJAX foi possível criar a rolagem infinita, onde o usuário pode ver as notícias somente ao rolar o scroll. Também tem um sistema de login básico com verificação por e-mail, e sistema de perfil onde o usuário pode customizar sua página."
-                link="https://github.com/Guilherme0112/FutOne">
+                link="https://github.com/Guilherme0112/FutOne"
+                tecnologias="HTML, CSS, JavaScript, AJAX, NodeJS, ExpressJS e MySQL">
               </BoxProjetos>
             </div>
             <div>
               <BoxProjetos
                 titulo="Curriculados"
                 descricao="O Curriculados é um site onde o usuário pode criar seu currículo de forma simples e rápida, com diversas opções de customização, como: cursos, experiências, contato, entre outros. Existem diversos modelos onde o usuário respondendo um questionário pode colocar os dados no modelo."
-                link="https://github.com/Guilherme0112/Curriculados">
+                link="https://github.com/Guilherme0112/Curriculados"
+                tecnologias="HTML, CSS, JavaScript, PHP, Laravel e MySQL">
               </BoxProjetos>
             </div>
             <div>
@@ -68,14 +72,15 @@ export default function Home() {
                 titulo="VidTube"
                 descricao="O VidTube é um site de vídeos onde o usuário pode fazer upload de seus vídeos, e também pode assistir vídeos de outros usuários. O site tem um sistema de login e cadastro, e também um sistema de like e dislike nos vídeos juntamente com um sistema de perfis e comentários."
                 link="https://github.com/Guilherme0112/VidTube"
-              >
+                tecnologias="HTML, CSS, JavaScript, AJAX, JQuery, PHP e MySQL">
               </BoxProjetos>
             </div>
             <div>
               <BoxProjetos
                 titulo="DashFreela"
                 descricao="O DeshFreela é um simples site onde o objetivo é lhe ajudar a gerenciar serviços de freelancer, ele lhe diz quais são os serviços que você tem que fazer, quais estão em andamento, quais já foram feitos e quais estão atrasados. Ele também te diz com 2 dias de antecedência quais estão perto de vencer."
-                link="https://github.com/Guilherme0112/DashFreela">
+                link="https://github.com/Guilherme0112/DashFreela"
+                tecnologias="HTML, CSS, JavaScript, PHP (POO) e MySQL">
 
               </BoxProjetos>
             </div>
