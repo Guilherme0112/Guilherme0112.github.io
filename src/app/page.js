@@ -45,7 +45,7 @@ export default function Home() {
             <div>
               <BoxProjetos
                 titulo="Admon"
-                descricao="O AdMon é um site de administração financeira onde você pode cadastrar sua receita e seus gastos, e ele te mostra um resumo de como está sua situação financeira. Tem diversas funcionalidades como: cadastro de usuários, cadastro de receitas e gastos, gráficos de desempenho financeiro, entre outros."
+                descricao="O AdMon é um site de administração financeira onde você pode cadastrar sua receita e seus gastos, e ele te mostra um resumo de como está sua situação financeira. Tem diversas funcionalidades como: cadastro de receitas e gastos, gráficos de desempenho financeiro, entre outros."
                 link="https://github.com/Guilherme0112/AdMon"
                 tecnologias="HTML, CSS, JavaScript, AJAX, Java, Spring e MySQL"
                 >
@@ -54,7 +54,7 @@ export default function Home() {
             <div>
               <BoxProjetos
                 titulo="FutOne"
-                descricao="O FutOne é um site de notícias onde abrange mais o mundo dos jogos, usando o AJAX foi possível criar a rolagem infinita, onde o usuário pode ver as notícias somente ao rolar o scroll. Também tem um sistema de login básico com verificação por e-mail, e sistema de perfil onde o usuário pode customizar sua página."
+                descricao="O FutOne é um site de notícias onde abrange mais o mundo dos jogos, usando o AJAX foi possível criar a rolagem infinita, onde o usuário pode ver as notícias somente ao rolar o scroll. Também tem um sistema de login básico com verificação por e-mail."
                 link="https://github.com/Guilherme0112/FutOne"
                 tecnologias="HTML, CSS, JavaScript, AJAX, NodeJS, ExpressJS e MySQL">
               </BoxProjetos>
@@ -62,7 +62,7 @@ export default function Home() {
             <div>
               <BoxProjetos
                 titulo="Curriculados"
-                descricao="O Curriculados é um site onde o usuário pode criar seu currículo de forma simples e rápida, com diversas opções de customização, como: cursos, experiências, contato, entre outros. Existem diversos modelos onde o usuário respondendo um questionário pode colocar os dados no modelo."
+                descricao="O Curriculados é um site onde o usuário pode criar seu currículo de forma simples e rápida. Existem diversos modelos onde o usuário respondendo um questionário pode colocar os dados no modelo."
                 link="https://github.com/Guilherme0112/Curriculados"
                 tecnologias="HTML, CSS, JavaScript, PHP, Laravel e MySQL">
               </BoxProjetos>
@@ -84,6 +84,14 @@ export default function Home() {
 
               </BoxProjetos>
             </div>
+            <div>
+              <BoxProjetos
+                titulo="Verval"
+                descricao="O Verval é um site para gerenciar validade de produtos. É um site moderno e simples de usar com funcionalidade que ajudam as pequenas, médias e grandes empresas a ter controle do estoque."
+                link="https://github.com/Guilherme0112/Verval"
+                tecnologias="NextJS, Java, Spring e MySQL">
+              </BoxProjetos>
+            </div>
           </section>
 
 
@@ -103,7 +111,7 @@ export default function Home() {
               <BoxEstudos
                 plataforma="UNIPÊ"
                 curso="Sistemas para Internet"
-                status="02/2024 - 12/2025"
+                status="01/2024 - 12/2025"
               ></BoxEstudos>
             </div>
             <div>
