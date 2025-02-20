@@ -51,6 +51,8 @@ export default function Home() {
                 >
               </BoxProjetos>
             </div>
+
+
             <div>
               <BoxProjetos
                 titulo="FutOne"
@@ -59,6 +61,8 @@ export default function Home() {
                 tecnologias="HTML, CSS, JavaScript, AJAX, NodeJS, ExpressJS e MySQL">
               </BoxProjetos>
             </div>
+
+
             <div>
               <BoxProjetos
                 titulo="Curriculados"
@@ -67,6 +71,8 @@ export default function Home() {
                 tecnologias="HTML, CSS, JavaScript, PHP, Laravel e MySQL">
               </BoxProjetos>
             </div>
+
+
             <div>
               <BoxProjetos
                 titulo="VidTube"
@@ -75,6 +81,8 @@ export default function Home() {
                 tecnologias="HTML, CSS, JavaScript, AJAX, JQuery, PHP e MySQL">
               </BoxProjetos>
             </div>
+
+
             <div>
               <BoxProjetos
                 titulo="DashFreela"
@@ -84,12 +92,23 @@ export default function Home() {
 
               </BoxProjetos>
             </div>
+
+
             <div>
               <BoxProjetos
                 titulo="Verval"
                 descricao="O Verval é um site para gerenciar validade de produtos. É um site moderno e simples de usar com funcionalidade que ajudam as pequenas, médias e grandes empresas a ter controle do estoque."
                 link="https://github.com/Guilherme0112/Verval"
                 tecnologias="NextJS, Java, Spring e MySQL">
+              </BoxProjetos>
+            </div>
+
+            <div>
+              <BoxProjetos
+                titulo="ComPrei"
+                descricao="O ComPrei é uma loja onde uma etidade pode cadastrar produtos para vender, é como se fosse uma loja onine que pertence a alguma fanquia. Os clientes podem se cadastrar e fazer seus pedidos!"
+                link="https://github.com/Guilherme0112/ComPrei"
+                tecnologias="HTML, CSS, JS, Java, Spring e MySQL">
               </BoxProjetos>
             </div>
           </section>
